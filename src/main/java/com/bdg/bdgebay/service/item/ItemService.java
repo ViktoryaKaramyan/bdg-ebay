@@ -7,7 +7,7 @@ import com.bdg.bdgebay.entity.Item;
 
 public interface ItemService {
 	
-	    Item get(Long userId);
+		Item get(Long userId);
 
 	    Item create(ItemCreationRequest creationRequest);
 
